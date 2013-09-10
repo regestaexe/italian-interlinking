@@ -6,7 +6,7 @@ LikedGeoData
 ------------
 
 we extracted the italian places from http://linkedgeodata.org/sparql using a script based on this query:
-<pre>
+```
 CONSTRUCT {?a ?b ?c}
 FROM <http://linkedgeodata.org>
 WHERE {
@@ -15,7 +15,7 @@ WHERE {
    <http://linkedgeodata.org/property/is_in> ?IN.
    FILTER(REGEX(?IN,'Italy'))
  }
-</pre>
+```
 
 **the classes**  
 * http://linkedgeodata.org/ontology/City
