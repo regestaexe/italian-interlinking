@@ -16,9 +16,9 @@ WHERE {
 }
 </pre>
 
-*the classes*
-*http://linkedgeodata.org/ontology/City
-*http://linkedgeodata.org/ontology/Town
-*http://linkedgeodata.org/ontology/Suburb
-*http://linkedgeodata.org/ontology/Place
-*http://linkedgeodata.org/ontology/Village
+**the classes**
+* http://linkedgeodata.org/ontology/City
+* http://linkedgeodata.org/ontology/Town
+* http://linkedgeodata.org/ontology/Suburb
+* http://linkedgeodata.org/ontology/Place
+* http://linkedgeodata.org/ontology/Village
