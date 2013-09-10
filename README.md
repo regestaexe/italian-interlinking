@@ -5,18 +5,19 @@ Some resources to make interlinking of RDF resources easier, especially for ital
 LikedGeoData
 ------------
 
-we extracted the italian places from http://linkedgeodata.org/sparq
+we extracted the italian places from http://linkedgeodata.org/sparql using a script based on this query:
 <pre>
 CONSTRUCT {?a ?b ?c}
 FROM <http://linkedgeodata.org>
 WHERE {
-   ?a a <${class}>; <http://linkedgeodata.org/property/is_in> ?IN .
-   FILTER(REGEX(?IN,'Italy')) .
-   ?a ?b ?c
-}
+   ?a a <${class}>; 
+   ?b ?c; 
+   <http://linkedgeodata.org/property/is_in> ?IN.
+   FILTER(REGEX(?IN,'Italy'))
+ }
 </pre>
 
-**the classes**
+**the classes**  
 * http://linkedgeodata.org/ontology/City
 * http://linkedgeodata.org/ontology/Town
 * http://linkedgeodata.org/ontology/Suburb
