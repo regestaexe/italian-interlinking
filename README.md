@@ -23,3 +23,7 @@ WHERE {
 * http://linkedgeodata.org/ontology/Suburb
 * http://linkedgeodata.org/ontology/Place
 * http://linkedgeodata.org/ontology/Village
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/regestaexe/italian-interlinking/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
